@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 15rem;
+    background-image: url(./assets/fundo.svg);
+    
+  
+}
+div img{
+    margin-top: 5.0rem;
+}
+main{
+    padding: 2.0rem;
+    display: grid;
+    grid-template-areas: "A B C D"
+                         "E F G H"
+                         "I J K L"
+    ;
+    }
+
+    .b1{
+        position: absolute;
+        display: block;
+        z-index: 1;
+     
+    }
+    .t1 {
+        opacity: 0;
+        position: absolute;
+        display: block;
+        z-index: 2;
+        animation-name: aparecet1;
+        animation-delay: 1500ms;
+        animation-duration: 700ms;
+    }
+    .t2{
+        opacity: 0;
+        position: absolute;
+        display: block;
+        z-index: 2;
+        animation-name: aparecet2;
+        animation-delay: 1600ms;
+        animation-duration: 400ms;
+    }
+    .t3{
+        opacity: 0;
+        position: absolute;
+        display: block;
+        z-index: 2;
+        animation-delay: 1700ms;
+        animation-name: aparecet3;
+        animation-duration: 300ms;
+    }
+    @keyframes aparecet1 {
+        0%{
+            opacity: 0;
+        }
+        30%{
+            opacity: 1;
+        }
+        80%{
+           opacity: 1;
+        }
+        100%{
+          opacity: 0;
+        }
+    }
+    @keyframes aparecet2 {
+        0%{
+            opacity: 0;
+        }
+        30%{
+            opacity: 1;
+        }
+        80%{
+           opacity: 1;
+        }
+    } 
+    @keyframes aparecet3 {
+        0%{
+            opacity: 0;
+        }
+        30%{
+            opacity: 1;
+        }
+        80%{
+           opacity: 1;
+        }
+        100%{
+          opacity: 0;
+        }
+        }
+    
+
+        .b7{
+            position: absolute;
+            display: block;
+            z-index: 1;
+         
+        }
+        .t4 {
+            opacity: 0;
+            position: absolute;
+            display: block;
+            z-index: 2;
+            animation-name: aparecet1;
+            animation-delay: 4500ms;
+            animation-duration: 700ms;
+        }
+        .t5{
+            opacity: 0;
+            position: absolute;
+            display: block;
+            z-index: 2;
+            animation-name: aparecet2;
+            animation-delay: 4600ms;
+            animation-duration: 400ms;
+        }
+        .t6{
+            opacity: 0;
+            position: absolute;
+            display: block;
+            z-index: 2;
+            animation-delay: 4700ms;
+            animation-name: aparecet3;
+            animation-duration: 300ms;
+        }
+        @keyframes aparecet1 {
+            0%{
+                opacity: 0;
+            }
+            30%{
+                opacity: 1;
+            }
+            80%{
+               opacity: 1;
+            }
+            100%{
+              opacity: 0;
+            }
+        }
+        @keyframes aparecet2 {
+            0%{
+                opacity: 0;
+            }
+            30%{
+                opacity: 1;
+            }
+            80%{
+               opacity: 1;
+            }
+        } 
+        @keyframes aparecet3 {
+            0%{
+                opacity: 0;
+            }
+            30%{
+                opacity: 1;
+            }
+            80%{
+               opacity: 1;
+            }
+            100%{
+              opacity: 0;
+            }
+            }
+            .b12{
+                position: absolute;
+                display: block;
+                z-index: 1;
+             
+            }
+            .t7 {
+                opacity: 0;
+                position: absolute;
+                display: block;
+                z-index: 2;
+                animation-name: aparecet1;
+                animation-delay: 6500ms;
+                animation-duration: 700ms;
+            }
+            .t8{
+                opacity: 0;
+                position: absolute;
+                display: block;
+                z-index: 2;
+                animation-name: aparecet2;
+                animation-delay: 6600ms;
+                animation-duration: 400ms;
+            }
+            .t9{
+                opacity: 0;
+                position: absolute;
+                display: block;
+                z-index: 2;
+                animation-delay: 6700ms;
+                animation-name: aparecet3;
+                animation-duration: 300ms;
+            }
+            @keyframes aparecet1 {
+                0%{
+                    opacity: 0;
+                }
+                30%{
+                    opacity: 1;
+                }
+                80%{
+                   opacity: 1;
+                }
+                100%{
+                  opacity: 0;
+                }
+            }
+            @keyframes aparecet2 {
+                0%{
+                    opacity: 0;
+                }
+                30%{
+                    opacity: 1;
+                }
+                80%{
+                   opacity: 1;
+                }
+            } 
+            @keyframes aparecet3 {
+                0%{
+                    opacity: 0;
+                }
+                30%{
+                    opacity: 1;
+                }
+                80%{
+                   opacity: 1;
+                }
+                100%{
+                  opacity: 0;
+                }
+                }
